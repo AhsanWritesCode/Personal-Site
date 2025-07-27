@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create the navigation HTML
     const navHTML = `
         <nav>
-            <a href="/" ${pageName === 'index.html' || pageName === '' ? 'class="active"' : ''}>home</a>
+            <a href="index.html" ${pageName === 'index.html' || pageName === '' ? 'class="active"' : ''}>home</a>
             <!-- <a href="writings.html" ${pageName === 'writings.html' ? 'class="active"' : ''}>writings</a> -->
             <a href="poems.html" ${pageName === 'poems.html' ? 'class="active"' : ''}>poems</a>
             <a href="photos.html" ${pageName === 'photos.html' ? 'class="active"' : ''}>photos</a>
